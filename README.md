@@ -1,120 +1,58 @@
+![RNNs](https://github.com/user-attachments/assets/6b3035d1-1e16-4a43-bd85-9bed62aeddad)![ANNs](https://github.com/user-attachments/assets/60699627-5319-4d54-867a-f0a9a7b70da1)
+![Deep_learning_from_scratch](https://github.com/user-attachments/assets/51703441-6217-4dbe-9bb7-0cc0f5672a54)
+# Deep Learning from Scratch 🧠
+Welcome to **Deep Learning from Scratch**, a repository where I implement fundamental deep learning architectures from scratch using **Python, NumPy, PyTorch, and TensorFlow**. This project aims to provide a deeper understanding of how neural networks function internally, without relying on high-level libraries.
+
+## 📌 Implemented Architectures
+
+### 1️⃣ **Artificial Neural Network (ANN)**
+![ANNs](https://github.com/user-attachments/assets/200930d0-5f4c-419e-83ab-342471b9c5b2)
+
+   - Implemented a simple **Feedforward Neural Network (FNN)**.
+   - Trained using **CUDA** for GPU acceleration.
+   - **[Code Link](./[1]_Artificial_Neural_Network/)**
+
+### 2️⃣ **Recurrent Neural Network (RNN)**
+![RNNs](https://github.com/user-attachments/assets/5baa0999-f8c1-4ae0-801a-491049ff7566)
 
 
+   - Built a **Recurrent Neural Network (RNN)** for a **Q&A system**.
+   - Explores sequence-based architectures and **vanishing gradients**.
+   - **[Code Link](./[2]_Recurrent_Neural_Network/)**
 
-# Neural Network from Scratch in Python
+### 3️⃣ **Convolutional Neural Network (CNN)**
+![CNNs](https://github.com/user-attachments/assets/eb70c9fa-0590-44ae-9e61-8f251c97d38a)
 
-![Neural Network Thumbnail](Assets/neutral_net.jpg)
+   - Implemented **CNNs from scratch**.
+   - Performed **Transfer Learning using VGG16**.
+   - **[Code Link](./[3]_Convolutional_Neural_Network/)**
 
-This repository contains the implementation of a neural network built from scratch using Python and NumPy. The project covers core concepts of deep learning, demonstrating how to build, train, and evaluate neural networks without relying on popular machine learning libraries like TensorFlow or PyTorch. It provides a hands-on approach to understanding the internal workings of neural networks.
+### 4️⃣ **Generative Adversarial Networks (GANs)**
 
-## Table of Contents
+   - Implemented **GANs from scratch** in **PyTorch and TensorFlow**.
+   - Covers **Generator and Discriminator networks** for synthetic data generation.
+   - **[Code Link](./[4]_GENERATIVE_ADVERSARIAL_NETWORKS/)**
 
-- [About the Project](#about-the-project)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Code Structure](#code-structure)
-- [How the Network Works](#how-the-network-works)
-- [Loss Functions Implemented](#loss-functions-implemented)
-- [Training the Network](#training-the-network)
-- [Visualizing the Results](#visualizing-the-results)
-- [Future Improvements](#future-improvements)
-
-
-## About the Project
-
-In this project, we implement a simple yet effective feedforward neural network. Starting from the basics, we will gain insights into the math behind the neural networks, including activation functions, weight initialization, forward and backward propagation, and optimization algorithms like gradient descent.
-
-The network can handle tasks such as classification and regression, with examples of how to build custom layers, activation functions, and loss functions.
-
-## Technologies Used
-
-- **Programming Language**: Python 3.x
-- **Core Libraries**: NumPy, Matplotlib (for visualizations)
-- **Jupyter Notebooks**: Used for step-by-step explanation and demonstration.
-
-## Installation
-
+## 🛠️ How to Use
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch
-   cd https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch
+   git clone https://github.com/Mayankpratapsingh022/Deep-Learning-from-Scratch.git
    ```
-
-2. Install the required dependencies:
-
+2. Navigate to a specific model:
    ```bash
-   pip install -r requirements.txt
+   cd Deep-Learning-from-Scratch/[Folder_Name]
    ```
-
-3. (Optional) Create a virtual environment for better package management:
-
+3. Run Jupyter notebooks:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   jupyter notebook
    ```
+4. Follow the instructions within each notebook.
 
-## Usage
+## 📌 Contributions & Feedback
+This project is a work in progress! If you have suggestions, feel free to **fork the repo**, submit **issues**, or create **pull requests**.
 
-To run the neural network and explore its functionalities, open any of the provided Jupyter notebooks (`.ipynb` files):
+⭐ If you find this helpful, **star this repository** and stay tuned for more updates!
 
-```bash
-jupyter notebook
-```
+---
 
-Navigate to the notebook of interest, for example, `4_Network_with_Activation_Fun.ipynb`, and run the cells to see the results.
-
-### Running the Code
-
-You can also run the Python scripts directly from the terminal:
-
-```bash
-python 5_Cross_Entropy_Loss.ipynb
-```
-
-## Code Structure
-
-The repository contains the following core files and folders:
-
-```
-├── 1_Dense_Layer_Class.ipynb       # Dense Layer implementation
-├── 2_General_Numpy_Tutorials.ipynb # Numpy basics and tutorials
-├── 3_Activation_Function_Scratch.ipynb # Building activation functions from scratch
-├── 4_Network_with_Activation_Fun.ipynb # Assembling layers and activations into a network
-├── 5_Cross_Entropy_Loss.ipynb      # Implementing cross-entropy loss
-├── NeuralNetwork_from_scratch_tut.ipynb # Main notebook explaining the complete neural network
-├── requirements.txt                # Project dependencies
-└── README.md                       # This file
-```
-
-## How the Network Works
-
-The neural network implementation focuses on key steps in deep learning:
-
-1. **Dense Layer**: The `Dense_Layer_Class.ipynb` notebook covers the basics of a dense (fully connected) layer.
-2. **Activation Functions**: Implementations of popular activation functions like ReLU, sigmoid, and softmax.
-3. **Forward and Backward Propagation**: Mathematical details of forward propagation and calculating gradients during backpropagation.
-4. **Loss Functions**: Cross-entropy and mean squared error (MSE) are covered in the `5_Cross_Entropy_Loss.ipynb`.
-
-
-
-## Training the Network
-
-The training process is handled through a series of steps:
-
-1. **Initialize weights and biases**.
-2. **Feedforward pass**: Compute outputs layer by layer.
-3. **Compute the loss**: Based on predictions and actual labels.
-4. **Backpropagation**: Update weights using gradient descent.
-5. **Optimization**: Implement optimizers like vanilla gradient descent, with room to add more advanced optimizers like Adam or RMSprop.
-
-
-
-## Future Improvements
-
-- Implement more advanced optimizers such as Adam and RMSprop.
-- Add support for convolutional layers (CNNs).
-- Expand to more complex datasets and tasks like MNIST or CIFAR-10.
-- Integrate hyperparameter tuning functionality.
-
+This keeps it **clean, structured, and informative**. Let me know if you need modifications! 🚀
