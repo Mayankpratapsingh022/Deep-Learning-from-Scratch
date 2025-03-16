@@ -9,7 +9,7 @@ Welcome to **Deep Learning from Scratch**, a repository where I implement fundam
 
    - Implemented a simple **Feedforward Neural Network (FNN)**.
    - Trained using **CUDA** for GPU acceleration.
-   - **[Code Link](./[1]_Artificial_Neural_Network/)**
+   - [Code Directory](https://github.com/Mayankpratapsingh022/Deep-Learning-from-Scratch/tree/main/%5B1%5D%20Artifical_Neural_Network)
 
 ### 2️⃣ **Recurrent Neural Network (RNN)**
 ![RNNs](https://github.com/user-attachments/assets/5baa0999-f8c1-4ae0-801a-491049ff7566)
@@ -17,20 +17,19 @@ Welcome to **Deep Learning from Scratch**, a repository where I implement fundam
 
    - Built a **Recurrent Neural Network (RNN)** for a **Q&A system**.
    - Explores sequence-based architectures and **vanishing gradients**.
-   - **[Code Link](./[2]_Recurrent_Neural_Network/)**
+   - [Code Directory](https://github.com/Mayankpratapsingh022/Deep-Learning-from-Scratch/tree/main/%5B2%5D%20Recurrent_Neural_Netowork)
 
 ### 3️⃣ **Convolutional Neural Network (CNN)**
 ![CNNs](https://github.com/user-attachments/assets/eb70c9fa-0590-44ae-9e61-8f251c97d38a)
 
    - Implemented **CNNs from scratch**.
    - Performed **Transfer Learning using VGG16**.
-   - **[Code Link](./[3]_Convolutional_Neural_Network/)**
-
+   - [Code Directory](https://github.com/Mayankpratapsingh022/Deep-Learning-from-Scratch/tree/main/%5B3%5D%20Convolutional_Neural_Network)
 ### 4️⃣ **Generative Adversarial Networks (GANs)**
 ![Comp 2_00210](https://github.com/user-attachments/assets/322b34e0-2ad4-46ba-bd0e-54a0386afce4)
    - Implemented **GANs from scratch** in **PyTorch and TensorFlow**.
    - Covers **Generator and Discriminator networks** for synthetic data generation.
-   - **[Code Link](./[4]_GENERATIVE_ADVERSARIAL_NETWORKS/)**
+   - [Code Directory](https://github.com/Mayankpratapsingh022/Deep-Learning-from-Scratch/tree/main/%5B4%5D%20GENERATIVE_ADVERSARIAL_NETWORKS)
 
 ## 🛠️ How to Use
 1. Clone the repository:
