@@ -1,4 +1,3 @@
-![RNNs](https://github.com/user-attachments/assets/6b3035d1-1e16-4a43-bd85-9bed62aeddad)![ANNs](https://github.com/user-attachments/assets/60699627-5319-4d54-867a-f0a9a7b70da1)
 ![Deep_learning_from_scratch](https://github.com/user-attachments/assets/51703441-6217-4dbe-9bb7-0cc0f5672a54)
 # Deep Learning from Scratch 🧠
 Welcome to **Deep Learning from Scratch**, a repository where I implement fundamental deep learning architectures from scratch using **Python, NumPy, PyTorch, and TensorFlow**. This project aims to provide a deeper understanding of how neural networks function internally, without relying on high-level libraries.
@@ -28,7 +27,7 @@ Welcome to **Deep Learning from Scratch**, a repository where I implement fundam
    - **[Code Link](./[3]_Convolutional_Neural_Network/)**
 
 ### 4️⃣ **Generative Adversarial Networks (GANs)**
-
+![Comp 2_00210](https://github.com/user-attachments/assets/322b34e0-2ad4-46ba-bd0e-54a0386afce4)
    - Implemented **GANs from scratch** in **PyTorch and TensorFlow**.
    - Covers **Generator and Discriminator networks** for synthetic data generation.
    - **[Code Link](./[4]_GENERATIVE_ADVERSARIAL_NETWORKS/)**
