@@ -25,7 +25,7 @@ This repository contains  implementation of the Gemma 3 270M architecture, featu
 
 [Trained Model Weights on Huggingface](https://huggingface.co/Mayank022/Gemma_3_270M_SLM_from_scratch)
 
-[Gemma_3_270M_from_scratch.pdf](https://github.com/user-attachments/files/21978285/Gemma_3_270M_from_scratch.pdf)
+
 
 
 
@@ -185,3 +185,4 @@ The model was successfully trained for 60,000 iterations with:
 - **Training Time**: Approximately 60,000 iterations on GPU
 - **Generation Speed**: Fast inference suitable for edge deployment
 - **Specialization Ready**: Architecture optimized for task-specific fine-tuning
+
